@@ -15,7 +15,7 @@
     N --> O{Validasi apakah \n jumlah dibeli > jumlah stok}
     O --> P[TIDAK]
     P --> Q[mengurangi jumlah item yang di display,\n dan menghitung harga items]
-    T --> U[/print harga barang beli/]
+    Q --> U[/print harga barang beli/]
     U --> B
     O --> R[YA] 
     R --> S[/print: Incorrect amount/]
